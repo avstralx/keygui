@@ -1,0 +1,184 @@
+-- This Script Was Made By avstral#0001
+-- Dm avstral on discord for help with scripts.
+-- Also to get the "Key" you must join the discord server 
+-- https://discord.gg/QHtUteah
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local FullFrame = Instance.new("Frame")
+local TopFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local KeyGUI = Instance.new("TextBox")
+local CreditFrame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local LoginButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+FullFrame.Name = "FullFrame"
+FullFrame.Parent = ScreenGui
+FullFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+FullFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FullFrame.BorderSizePixel = 4
+FullFrame.Position = UDim2.new(0.106481485, 0, 0.181595087, 0)
+FullFrame.Size = UDim2.new(0, 297, 0, 277)
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = FullFrame
+TopFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopFrame.Size = UDim2.new(0, 297, 0, 36)
+
+TextLabel.Parent = FullFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.144781142, 0, 0.0364077687, 0)
+TextLabel.Size = UDim2.new(0, 211, 0, 102)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Avstral"
+TextLabel.TextColor3 = Color3.fromRGB(94, 94, 94)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+KeyGUI.Name = "KeyGUI"
+KeyGUI.Parent = FullFrame
+KeyGUI.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+KeyGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyGUI.BorderSizePixel = 2
+KeyGUI.Position = UDim2.new(0.239057243, 0, 0.440766186, 0)
+KeyGUI.Size = UDim2.new(0, 155, 0, 31)
+KeyGUI.Font = Enum.Font.SourceSans
+KeyGUI.Text = "Key:"
+KeyGUI.TextColor3 = Color3.fromRGB(94, 94, 94)
+KeyGUI.TextSize = 27.000
+
+CreditFrame.Name = "CreditFrame"
+CreditFrame.Parent = FullFrame
+CreditFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+CreditFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreditFrame.BorderSizePixel = 0
+CreditFrame.Position = UDim2.new(0.239057243, 0, 0.707581222, 0)
+CreditFrame.Size = UDim2.new(0, 155, 0, 73)
+
+TextLabel_2.Parent = CreditFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.16438356, 0)
+TextLabel_2.Size = UDim2.new(0, 155, 0, 20)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "avstral#0001"
+TextLabel_2.TextColor3 = Color3.fromRGB(94, 94, 94)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = CreditFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.423786312, 0)
+TextLabel_3.Size = UDim2.new(0, 155, 0, 20)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "discord.gg/xVrWKAn2WX"
+TextLabel_3.TextColor3 = Color3.fromRGB(94, 94, 94)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = CreditFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0.683189094, 0)
+TextLabel_4.Size = UDim2.new(0, 155, 0, 20)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Join for Key"
+TextLabel_4.TextColor3 = Color3.fromRGB(94, 94, 94)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+LoginButton.Name = "LoginButton"
+LoginButton.Parent = FullFrame
+LoginButton.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+LoginButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoginButton.Position = UDim2.new(0.285043985, 0, 0.586351395, 0)
+LoginButton.Size = UDim2.new(0, 127, 0, 26)
+LoginButton.Font = Enum.Font.SourceSans
+LoginButton.Text = "Login"
+LoginButton.TextColor3 = Color3.fromRGB(216, 216, 216)
+LoginButton.TextScaled = true
+LoginButton.TextSize = 14.000
+LoginButton.TextWrapped = true
+LoginButton.MouseButton1Down:connect(function()
+	if KeyGUI.Text == "avstralX" then
+		FullFrame.Visible = false
+		--Launch a script on a line before the "end" and after "FullFrame.Visible = false"
+		
+    --Example (loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	
+  end --make sure the script insert is before the end
+end)
+	
+		
+		
+		
+-- Scripts:
+
+local function VLHQAMM_fake_script() -- TextLabel_4.Rainbower 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	while wait() do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(VLHQAMM_fake_script)()
+
+-- This Script Was Made By avstral#0001
+-- Dm avstral on discord for help with scripts.
+-- Also to get the "Key" you must join the discord server 
+-- https://discord.gg/QHtUteah
